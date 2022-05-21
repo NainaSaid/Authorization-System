@@ -14,7 +14,6 @@ from tqdm import tqdm
 import pickle
 
 from basemodels import VGGFace, OpenFace, Facenet, Facenet512, FbDeepFace, DeepID, DlibWrapper, ArcFace, Boosting
-from extendedmodels import Age, Gender, Race, Emotion
 from commons import functions, realtime, distance as dst
 
 import tensorflow as tf
